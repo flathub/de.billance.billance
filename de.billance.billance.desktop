@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Billance
+GenericName=E-Invoicing Software
+Comment=Create, convert, validate, and manage XRechnung and ZUGFeRD invoices
+Exec=billance %U
+Terminal=false
+Type=Application
+Icon=de.billance.billance
+StartupWMClass=Billance
+StartupNotify=true
+Categories=Office;Finance;
+MimeType=x-scheme-handler/billance;x-scheme-handler/cloudkit-icloud.de.billance.app;

@@ -1,0 +1,58 @@
+app-id: de.billance.billance
+runtime: org.freedesktop.Platform
+runtime-version: '25.08'
+sdk: org.freedesktop.Sdk
+base: org.electronjs.Electron2.BaseApp
+base-version: '25.08'
+command: billance
+separate-locales: false
+
+finish-args:
+  - --share=ipc
+  - --device=dri
+  - --socket=x11
+  - --share=network
+  - --env=ELECTRON_TRASH=gio
+
+modules:
+  - name: billance
+    buildsystem: simple
+    build-commands:
+      - install -Dm755 billance-wrapper.sh /app/bin/billance
+      - install -Dm755 apply_extra.sh /app/bin/apply_extra
+      - install -Dm644 de.billance.billance.desktop /app/share/applications/de.billance.billance.desktop
+      - install -Dm644 de.billance.billance.metainfo.xml /app/share/metainfo/de.billance.billance.metainfo.xml
+      - install -Dm644 de.billance.billance.svg /app/share/icons/hicolor/scalable/apps/de.billance.billance.svg
+      - install -Dm644 LICENSE.proprietary.txt /app/share/licenses/de.billance.billance/LICENSE.proprietary.txt
+    sources:
+
+      - type: extra-data
+        filename: Billance-2026.1.0-linux-x86_64-flatpak-extra-data.tar.gz
+        only-arches:
+          - x86_64
+        url: https://billance.de/downloads/flatpak/2026.1.0/Billance-2026.1.0-linux-x86_64-flatpak-extra-data.tar.gz
+        sha256: 9c2ef6f9961be896fe5984b766758d09f69e9603d0ab3cc67f856f19b4c82896
+        size: 151492576
+
+
+      - type: extra-data
+        filename: Billance-2026.1.0-linux-aarch64-flatpak-extra-data.tar.gz
+        only-arches:
+          - aarch64
+        url: https://billance.de/downloads/flatpak/2026.1.0/Billance-2026.1.0-linux-aarch64-flatpak-extra-data.tar.gz
+        sha256: 2fb0852104470ef0e5aa4a32b7ab7330bdbb87e96ac4b3740a71dcc8d49df440
+        size: 151286988
+
+      - type: file
+        path: billance-wrapper.sh
+      - type: file
+        path: apply_extra.sh
+      - type: file
+        path: de.billance.billance.desktop
+      - type: file
+        path: de.billance.billance.metainfo.xml
+      - type: file
+        path: de.billance.billance.svg
+      - type: file
+        path: LICENSE.proprietary.txt
+        dest-filename: LICENSE.proprietary.txt
