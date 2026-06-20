@@ -13,6 +13,11 @@ finish-args:
   - --socket=x11
   - --share=network
   - --env=ELECTRON_TRASH=gio
+  # Invoices are written to the user's Documents folder (or any home-based
+  # output folder the user configures); without this the sandbox can't read
+  # back already-generated invoices and viewing fails with
+  # "Invalid or missing file path".
+  - --filesystem=home
 
 modules:
   - name: billance
@@ -31,8 +36,8 @@ modules:
         only-arches:
           - x86_64
         url: https://billance.de/downloads/flatpak/2026.1.0/Billance-2026.1.0-linux-x86_64-flatpak-extra-data.tar.gz
-        sha256: 9c2ef6f9961be896fe5984b766758d09f69e9603d0ab3cc67f856f19b4c82896
-        size: 151492576
+        sha256: 42994701e8636924626c56c786a843edc874bd02448228cc6f4502e72cc510b6
+        size: 151050779
 
 
       - type: extra-data
@@ -40,8 +45,8 @@ modules:
         only-arches:
           - aarch64
         url: https://billance.de/downloads/flatpak/2026.1.0/Billance-2026.1.0-linux-aarch64-flatpak-extra-data.tar.gz
-        sha256: 2fb0852104470ef0e5aa4a32b7ab7330bdbb87e96ac4b3740a71dcc8d49df440
-        size: 151286988
+        sha256: 4aec4a8687fa02bab4fc90d61e70530877e3431a3b46ecfd3bbe9e4703e4ab51
+        size: 151482122
 
       - type: file
         path: billance-wrapper.sh

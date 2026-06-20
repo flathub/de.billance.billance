@@ -100,7 +100,7 @@
   </supports>
   <content_rating type="oars-1.1"/>
   <releases>
-    <release version="2026.1.0" date="2026-06-19">
+    <release version="2026.1.0" date="2026-06-20">
       <description>
         <p>First release of Billance on Flathub. This version includes:</p>
         <p xml:lang="de">Erste Veröffentlichung von Billance auf Flathub. Diese Version enthält:</p>
