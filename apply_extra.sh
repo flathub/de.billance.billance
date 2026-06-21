@@ -29,5 +29,5 @@ if [ -f "resources/app.asar" ]; then
     fi
 fi
 
-chmod 0755 billance || true
-chmod 0755 chrome-sandbox || true
+chmod 0755 billance
+chmod 0755 chrome-sandbox
