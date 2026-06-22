@@ -1,0 +1,18 @@
+# flatpak-builder files 
+.flatpak-builder/
+build/
+builddir/
+build-dir/
+repo/
+.flatpak/
+*.flatpak
+
+# extra-data archives pulled in for local testing
+*.tar.gz
+*.tgz
+*.tar.xz
+
+# editor / OS noise
+*.swp
+*~
+.DS_Store

@@ -13,11 +13,11 @@ finish-args:
   - --socket=x11
   - --share=network
   - --env=ELECTRON_TRASH=gio
-  # Invoices are written to the user's Documents folder (or any home-based
-  # output folder the user configures); without this the sandbox can't read
-  # back already-generated invoices and viewing fails with
-  # "Invalid or missing file path".
-  - --filesystem=home
+  # Generated invoices default to the user's Documents folder (the app's
+  # default output location) and are read back from there to display them
+  # in-app. Any other output location is chosen by the user through the
+  # file-chooser portal, so no broader home access is required.
+  - --filesystem=xdg-documents
 
 modules:
   - name: billance
