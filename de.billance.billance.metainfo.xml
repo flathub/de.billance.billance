@@ -3,7 +3,7 @@
 <component type="desktop-application">
   <id>de.billance.billance</id>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>LicenseRef-proprietary</project_license>
+  <project_license>LicenseRef-proprietary=https://billance.de/de/agb</project_license>
   <name>Billance</name>
   <summary>Create, convert, validate, and manage electronic invoices</summary>
   <summary xml:lang="de">Elektronische Rechnungen erstellen, konvertieren, prüfen und verwalten</summary>
