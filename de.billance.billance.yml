@@ -34,14 +34,14 @@ modules:
     sources:
       - type: archive
         url: https://billance.de/downloads/flatpak/2026.1.0/Billance-2026.1.0-linux-x86_64-flatpak-extra-data.tar.gz
-        sha256: 18d44800eafb1ffd758cd9325acffc3cb973a001555d242d557a44b6156b9e85
+        sha256: d629547b2f0a1de52eeb8cfad65545f9ef08a892b072d37af75a5b574ebeeb73
         dest: app
         strip-components: 0
         only-arches:
           - x86_64
       - type: archive
         url: https://billance.de/downloads/flatpak/2026.1.0/Billance-2026.1.0-linux-aarch64-flatpak-extra-data.tar.gz
-        sha256: 4854cb3b918de8d5d5bb9b501fb3f9ff4d8a808252441b212bf72c01ba1c9345
+        sha256: 7329a66da8859afd3773d2a70877b42d4bf8a9997d6ba7b64afd2aef8a810275
         dest: app
         strip-components: 0
         only-arches:
