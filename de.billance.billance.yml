@@ -13,11 +13,6 @@ finish-args:
   - --socket=x11
   - --share=network
   - --env=ELECTRON_TRASH=gio
-  # Generated invoices default to the user's Documents folder (the app's
-  # default output location) and are read back from there to display them
-  # in-app. Any other output location is chosen by the user through the
-  # file-chooser portal, so no broader home access is required.
-  - --filesystem=xdg-documents
 
 modules:
   - name: billance
@@ -30,23 +25,21 @@ modules:
       - install -Dm644 app/de.billance.billance.desktop /app/share/applications/de.billance.billance.desktop
       - install -Dm644 app/de.billance.billance.metainfo.xml /app/share/metainfo/de.billance.billance.metainfo.xml
       - install -Dm644 app/de.billance.billance.svg /app/share/icons/hicolor/scalable/apps/de.billance.billance.svg
-      - install -Dm644 LICENSE.proprietary.txt /app/share/licenses/de.billance.billance/LICENSE.proprietary.txt
+      - install -Dm644 app/LICENSE.proprietary.txt /app/share/licenses/de.billance.billance/LICENSE.proprietary.txt
     sources:
       - type: archive
         url: https://billance.de/downloads/flatpak/2026.1.0/Billance-2026.1.0-linux-x86_64-flatpak-extra-data.tar.gz
-        sha256: d629547b2f0a1de52eeb8cfad65545f9ef08a892b072d37af75a5b574ebeeb73
+        sha256: 8fa7db3d234a73bed30e4aa78134062c2abe72dac671a8d570a82028a9595482
         dest: app
         strip-components: 0
         only-arches:
           - x86_64
       - type: archive
         url: https://billance.de/downloads/flatpak/2026.1.0/Billance-2026.1.0-linux-aarch64-flatpak-extra-data.tar.gz
-        sha256: 7329a66da8859afd3773d2a70877b42d4bf8a9997d6ba7b64afd2aef8a810275
+        sha256: 8f5129555543c0126879373d3f55b03f2c98ce9f4c1cbfbb72b2cf0d5b2f51ee
         dest: app
         strip-components: 0
         only-arches:
           - aarch64
       - type: file
         path: billance-wrapper.sh
-      - type: file
-        path: LICENSE.proprietary.txt
