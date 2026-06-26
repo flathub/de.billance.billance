@@ -10,7 +10,8 @@ separate-locales: false
 finish-args:
   - --share=ipc
   - --device=dri
-  - --socket=x11
+  - --socket=wayland
+  - --socket=fallback-x11
   - --share=network
   - --env=ELECTRON_TRASH=gio
 
@@ -29,14 +30,14 @@ modules:
     sources:
       - type: archive
         url: https://billance.de/downloads/flatpak/2026.1.0/Billance-2026.1.0-linux-x86_64-flatpak-extra-data.tar.gz
-        sha256: 8fa7db3d234a73bed30e4aa78134062c2abe72dac671a8d570a82028a9595482
+        sha256: 46f6a6fc8f7d1592ce4bcfccf0836b7e9cf12720bd1c1e51e413702d7b20fef2
         dest: app
         strip-components: 0
         only-arches:
           - x86_64
       - type: archive
         url: https://billance.de/downloads/flatpak/2026.1.0/Billance-2026.1.0-linux-aarch64-flatpak-extra-data.tar.gz
-        sha256: 8f5129555543c0126879373d3f55b03f2c98ce9f4c1cbfbb72b2cf0d5b2f51ee
+        sha256: 1dc1cfa66404b06befc3c0f4147b432c4303d236d6db0e0e152231b13e17e84b
         dest: app
         strip-components: 0
         only-arches:
