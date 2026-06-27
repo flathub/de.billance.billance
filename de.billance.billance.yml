@@ -14,6 +14,9 @@ finish-args:
   - --socket=fallback-x11
   - --share=network
   - --env=ELECTRON_TRASH=gio
+  # "Show invoice in file manager": shell.showItemInFolder() calls
+  # org.freedesktop.FileManager1.ShowItems on the session bus.
+  - --talk-name=org.freedesktop.FileManager1
 
 modules:
   - name: billance
