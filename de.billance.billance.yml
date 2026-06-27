@@ -14,6 +14,9 @@ finish-args:
   - --socket=fallback-x11
   - --share=network
   - --env=ELECTRON_TRASH=gio
+  # Invoices are written to the user's Documents folder so they stay visible on
+  # the host and can be opened/revealed in the file manager.
+  - --filesystem=xdg-documents
   # "Show invoice in file manager": shell.showItemInFolder() calls
   # org.freedesktop.FileManager1.ShowItems on the session bus.
   - --talk-name=org.freedesktop.FileManager1
@@ -33,14 +36,14 @@ modules:
     sources:
       - type: archive
         url: https://billance.de/downloads/flatpak/2026.1.0/Billance-2026.1.0-linux-x86_64-flatpak-extra-data.tar.gz
-        sha256: 816eddceee14fb83c92b966d14d02c183cbe37752810a2ebbb4259381b6f846f
+        sha256: ee4b4dcc57ddd44be526e0850a0f14ad3d064e8bc650d8dabd39948a58b902ae
         dest: app
         strip-components: 0
         only-arches:
           - x86_64
       - type: archive
         url: https://billance.de/downloads/flatpak/2026.1.0/Billance-2026.1.0-linux-aarch64-flatpak-extra-data.tar.gz
-        sha256: 00313e38b0ece829a9840ffab11eb9d3d82a7b6af7f712d1764a8f661cada707
+        sha256: 6c6fa0123375a9c60d742133ddbea172bd83f28a8abae8bf6c07aef705616949
         dest: app
         strip-components: 0
         only-arches:
