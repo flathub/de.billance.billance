@@ -35,15 +35,15 @@ modules:
       - install -Dm644 app/LICENSE.proprietary.txt /app/share/licenses/de.billance.billance/LICENSE.proprietary.txt
     sources:
       - type: archive
-        url: https://billance.de/downloads/flatpak/2026.1.0/Billance-2026.1.0-linux-x86_64-flatpak-extra-data.tar.gz
-        sha256: ee4b4dcc57ddd44be526e0850a0f14ad3d064e8bc650d8dabd39948a58b902ae
+        url: https://billance.de/downloads/flatpak/2026.1.1/Billance-2026.1.1-linux-x86_64-flatpak-extra-data.tar.gz
+        sha256: 0ec11b43a4cc3ee5e09e25c337fe8d2fdc6374bcac31322c75ee1545f2bc874e
         dest: app
         strip-components: 0
         only-arches:
           - x86_64
       - type: archive
-        url: https://billance.de/downloads/flatpak/2026.1.0/Billance-2026.1.0-linux-aarch64-flatpak-extra-data.tar.gz
-        sha256: 6c6fa0123375a9c60d742133ddbea172bd83f28a8abae8bf6c07aef705616949
+        url: https://billance.de/downloads/flatpak/2026.1.1/Billance-2026.1.1-linux-aarch64-flatpak-extra-data.tar.gz
+        sha256: 0ddce6f1d0bb397e0f48341642cf1412cd01fc6fdcffad0b7b27a55257c3a8af
         dest: app
         strip-components: 0
         only-arches:
