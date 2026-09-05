@@ -118,6 +118,34 @@
   </supports>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="2026.2.0" date="2026-09-05">
+      <description>
+        <p>Highlights:</p>
+        <p xml:lang="de">Highlights:</p>
+        <ul>
+          <li>New receipt and expense management with recognition, batch capture, and recurring expenses</li>
+          <li xml:lang="de">Neue Beleg- und Ausgabenverwaltung mit Erkennung, Stapelerfassung und wiederkehrenden Ausgaben</li>
+          <li>New workflows for order confirmations and delivery notes</li>
+          <li xml:lang="de">Neue Workflows für Auftragsbestätigungen und Lieferscheine</li>
+          <li>New analytics for income, expenses, and VAT</li>
+          <li xml:lang="de">Neue Auswertungen für Einnahmen, Ausgaben und Umsatzsteuer</li>
+          <li>Templates for header and footer text, plus email text templates</li>
+          <li xml:lang="de">Vorlagen für Kopf &amp; Fußtext sowie Mail-Textvorlagen</li>
+        </ul>
+        <p>More updates:</p>
+        <p xml:lang="de">Weitere Neuerungen:</p>
+        <ul>
+          <li>Extended DATEV export for invoices, credit notes, and receipts</li>
+          <li xml:lang="de">Erweiterter DATEV-Export für Rechnungen, Gutschriften und Belege</li>
+          <li>Improved processing of incoming e-invoices with XML preview and readable PDF copies</li>
+          <li xml:lang="de">Verbesserte Verarbeitung eingehender E-Rechnungen mit XML-Vorschau und lesbaren PDF-Kopien</li>
+          <li>Numerous improvements to document creation, cloud synchronization, and the user interface</li>
+          <li xml:lang="de">Zahlreiche Verbesserungen an Dokumenterstellung, Cloud-Synchronisierung und Benutzeroberfläche</li>
+          <li>Bug fixes</li>
+          <li xml:lang="de">Fehlerbehebungen</li>
+        </ul>
+      </description>
+    </release>
     <release version="2026.1.2" date="2026-07-16">
       <description>
         <p>New:</p>
