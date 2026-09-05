@@ -63,52 +63,58 @@
   -->
   <screenshots>
     <screenshot type="default">
-      <image type="source" width="1920" height="1080">https://billance.de/downloads/flatpak/2026.1.0/msstore_screenshot_1_de.png</image>
-      <image type="source" xml:lang="en" width="1920" height="1080">https://billance.de/downloads/flatpak/2026.1.0/msstore_screenshot_1_en.png</image>
-      <caption>Home dashboard with revenue overview, open amounts, and quick actions</caption>
-      <caption xml:lang="de">Startseite mit Umsatzübersicht, offenen Beträgen und Schnellaktionen</caption>
+      <image type="source" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/1_startseite_de_deep.png</image>
+      <image type="source" xml:lang="en" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/1_startseite_en_deep.png</image>
+      <caption>Home dashboard with income, payouts, open amounts, and quick actions</caption>
+      <caption xml:lang="de">Startseite mit Einnahmen, Auszahlungen, offenen Beträgen und Schnellaktionen</caption>
     </screenshot>
     <screenshot>
-      <image type="source" width="1920" height="1080">https://billance.de/downloads/flatpak/2026.1.0/msstore_screenshot_2_de.png</image>
-      <image type="source" xml:lang="en" width="1920" height="1080">https://billance.de/downloads/flatpak/2026.1.0/msstore_screenshot_2_en.png</image>
-      <caption>Convert existing PDF or image invoices into compliant e-invoices with Billance AI</caption>
-      <caption xml:lang="de">Bestehende PDF- oder Bildrechnungen mit Billance AI in konforme E-Rechnungen umwandeln</caption>
+      <image type="source" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/2_dokumente_de_deep.png</image>
+      <image type="source" xml:lang="en" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/2_dokumente_en_deep.png</image>
+      <caption>Create compliant e-invoices in a guided editor with reusable master data and templates</caption>
+      <caption xml:lang="de">Konforme E-Rechnungen geführt mit Stammdaten und Vorlagen erstellen</caption>
     </screenshot>
     <screenshot>
-      <image type="source" width="1920" height="1080">https://billance.de/downloads/flatpak/2026.1.0/msstore_screenshot_3_de.png</image>
-      <image type="source" xml:lang="en" width="1920" height="1080">https://billance.de/downloads/flatpak/2026.1.0/msstore_screenshot_3_en.png</image>
-      <caption>Create ZUGFeRD and XRechnung e-invoices from scratch in the document editor</caption>
-      <caption xml:lang="de">ZUGFeRD- und XRechnung-E-Rechnungen im Dokumenteneditor neu erstellen</caption>
+      <image type="source" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/3_konverter_de_deep.png</image>
+      <image type="source" xml:lang="en" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/3_konverter_en_deep.png</image>
+      <caption>Convert existing PDF, image, and Office invoices into compliant e-invoices with Billance AI</caption>
+      <caption xml:lang="de">Bestehende PDF-, Bild- und Office-Rechnungen mit Billance AI in konforme E-Rechnungen umwandeln</caption>
     </screenshot>
     <screenshot>
-      <image type="source" width="1920" height="1080">https://billance.de/downloads/flatpak/2026.1.0/msstore_screenshot_4_de.png</image>
-      <image type="source" xml:lang="en" width="1920" height="1080">https://billance.de/downloads/flatpak/2026.1.0/msstore_screenshot_4_en.png</image>
+      <image type="source" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/4_validierung_de_deep.png</image>
+      <image type="source" xml:lang="en" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/4_validierung_en_deep.png</image>
       <caption>Validate incoming and outgoing invoices for syntax errors and legal compliance</caption>
       <caption xml:lang="de">Eingehende und ausgehende Rechnungen auf Syntaxfehler und Konformität prüfen</caption>
     </screenshot>
     <screenshot>
-      <image type="source" width="1920" height="1080">https://billance.de/downloads/flatpak/2026.1.0/msstore_screenshot_5_de.png</image>
-      <image type="source" xml:lang="en" width="1920" height="1080">https://billance.de/downloads/flatpak/2026.1.0/msstore_screenshot_5_en.png</image>
-      <caption>Manage and archive all invoices with a clear status overview</caption>
-      <caption xml:lang="de">Alle Rechnungen mit übersichtlicher Statusanzeige verwalten und archivieren</caption>
+      <image type="source" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/5_einnahmen_de_deep.png</image>
+      <image type="source" xml:lang="en" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/5_einnahmen_en_deep.png</image>
+      <caption>Track invoices, quotes, reminders, and credit notes by status, due date, and outstanding amount</caption>
+      <caption xml:lang="de">Rechnungen, Angebote, Mahnungen und Gutschriften nach Status, Fälligkeit und offenem Betrag verfolgen</caption>
     </screenshot>
     <screenshot>
-      <image type="source" width="1920" height="1080">https://billance.de/downloads/flatpak/2026.1.0/msstore_screenshot_6_de.png</image>
-      <image type="source" xml:lang="en" width="1920" height="1080">https://billance.de/downloads/flatpak/2026.1.0/msstore_screenshot_6_en.png</image>
+      <image type="source" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/6_designer_de_deep.png</image>
+      <image type="source" xml:lang="en" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/6_designer_en_deep.png</image>
       <caption>Customize invoice layouts with modern templates in the design editor</caption>
       <caption xml:lang="de">Rechnungslayouts mit modernen Vorlagen im Design-Editor anpassen</caption>
     </screenshot>
     <screenshot>
-      <image type="source" width="1920" height="1080">https://billance.de/downloads/flatpak/2026.1.0/msstore_screenshot_7_de.png</image>
-      <image type="source" xml:lang="en" width="1920" height="1080">https://billance.de/downloads/flatpak/2026.1.0/msstore_screenshot_7_en.png</image>
-      <caption>Manage products, services, and customers from a single catalog</caption>
-      <caption xml:lang="de">Produkte, Dienstleistungen und Kunden in einem zentralen Katalog verwalten</caption>
+      <image type="source" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/7_ausgaben_de_deep.png</image>
+      <image type="source" xml:lang="en" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/7_ausgaben_en_deep.png</image>
+      <caption>Capture receipts, organize recurring expenses, and analyze costs by period</caption>
+      <caption xml:lang="de">Belege erfassen, wiederkehrende Ausgaben organisieren und Kosten nach Zeitraum auswerten</caption>
     </screenshot>
     <screenshot>
-      <image type="source" width="1920" height="1080">https://billance.de/downloads/flatpak/2026.1.0/msstore_screenshot_8_de.png</image>
-      <image type="source" xml:lang="en" width="1920" height="1080">https://billance.de/downloads/flatpak/2026.1.0/msstore_screenshot_8_en.png</image>
-      <caption>Synchronize data across devices through your own cloud connection</caption>
-      <caption xml:lang="de">Daten geräteübergreifend über die eigene Cloud-Verbindung synchronisieren</caption>
+      <image type="source" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/8_auswertung_de_deep.png</image>
+      <image type="source" xml:lang="en" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/8_auswertung_en_deep.png</image>
+      <caption>Analyze income, expenses, outstanding invoices, and customer payment behavior</caption>
+      <caption xml:lang="de">Einnahmen, Ausgaben, offene Rechnungen und das Zahlungsverhalten von Kunden auswerten</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/9_stammdaten_de_deep.png</image>
+      <image type="source" xml:lang="en" width="3840" height="2160">https://billance.de/downloads/flatpak/2026.2.0/9_stammdaten_en_deep.png</image>
+      <caption>Maintain customers, suppliers, products, tax rules, payment methods, and company profiles</caption>
+      <caption xml:lang="de">Kunden, Lieferanten, Produkte, Steuerregeln, Zahlungsarten und Firmenprofile zentral pflegen</caption>
     </screenshot>
   </screenshots>
   <supports>
