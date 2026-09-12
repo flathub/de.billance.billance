@@ -124,6 +124,12 @@
   </supports>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="2026.2.1" date="2026-09-12">
+      <description>
+        <p>Bug fixes</p>
+        <p xml:lang="de">Fehlerbehebungen</p>
+      </description>
+    </release>
     <release version="2026.2.0" date="2026-09-05">
       <description>
         <p>Highlights:</p>
