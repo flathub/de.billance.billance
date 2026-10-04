@@ -124,6 +124,28 @@
   </supports>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="2026.2.3" date="2026-10-04">
+      <description>
+        <p>Highlights:</p>
+        <p xml:lang="de">Highlights:</p>
+        <ul>
+          <li>Apple Intelligence support on macOS</li>
+          <li xml:lang="de">Unterstützung für Apple Intelligence auf macOS</li>
+          <li>Cloud Sync improvements</li>
+          <li xml:lang="de">Verbesserungen am Cloud-Sync</li>
+          <li>Local Automation API enhancements</li>
+          <li xml:lang="de">Erweiterungen der lokalen Automatisierungs-API</li>
+        </ul>
+        <p>Further improvements:</p>
+        <p xml:lang="de">Weitere Verbesserungen:</p>
+        <ul>
+          <li>Tax category E is now checked right in the editor.</li>
+          <li xml:lang="de">Steuerkategorie E wird bereits im Editor geprüft.</li>
+          <li>Bug fixes.</li>
+          <li xml:lang="de">Fehlerbehebungen.</li>
+        </ul>
+      </description>
+    </release>
     <release version="2026.2.2" date="2026-09-29">
       <description>
         <p>Highlights:</p>
