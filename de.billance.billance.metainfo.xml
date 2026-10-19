@@ -17,6 +17,47 @@
     <color type="primary" scheme_preference="light">#d8e1ff</color>
     <color type="primary" scheme_preference="dark">#16224a</color>
   </branding>
+  <!--
+    Keywords feed store search (Flathub, GNOME Software, KDE Discover) and are
+    shown as tags on Flathub. Flathub replaces the default list with the
+    xml:lang list for that locale, so the German list must stand on its own.
+  -->
+  <keywords>
+    <keyword>invoice</keyword>
+    <keyword>invoicing</keyword>
+    <keyword>e-invoice</keyword>
+    <keyword>e-invoicing</keyword>
+    <keyword>billing</keyword>
+    <keyword>XRechnung</keyword>
+    <keyword>ZUGFeRD</keyword>
+    <keyword>Factur-X</keyword>
+    <keyword>EN 16931</keyword>
+    <keyword>quote</keyword>
+    <keyword>payment reminder</keyword>
+    <keyword>credit note</keyword>
+    <keyword>receipts</keyword>
+    <keyword>DATEV</keyword>
+    <keyword>accounting</keyword>
+    <keyword>bookkeeping</keyword>
+    <keyword>freelancer</keyword>
+    <keyword xml:lang="de">Rechnung</keyword>
+    <keyword xml:lang="de">Rechnungsprogramm</keyword>
+    <keyword xml:lang="de">Rechnungssoftware</keyword>
+    <keyword xml:lang="de">Rechnungserstellung</keyword>
+    <keyword xml:lang="de">E-Rechnung</keyword>
+    <keyword xml:lang="de">XRechnung</keyword>
+    <keyword xml:lang="de">ZUGFeRD</keyword>
+    <keyword xml:lang="de">Factur-X</keyword>
+    <keyword xml:lang="de">EN 16931</keyword>
+    <keyword xml:lang="de">Angebot</keyword>
+    <keyword xml:lang="de">Mahnung</keyword>
+    <keyword xml:lang="de">Gutschrift</keyword>
+    <keyword xml:lang="de">Belege</keyword>
+    <keyword xml:lang="de">DATEV</keyword>
+    <keyword xml:lang="de">Buchhaltung</keyword>
+    <keyword xml:lang="de">Freiberufler</keyword>
+    <keyword xml:lang="de">Kleinunternehmer</keyword>
+  </keywords>
   <description>
     <p>Billance is the professional B2B e-invoicing software for creating, converting, validating, and managing electronic invoices with ease. Designed for businesses, entrepreneurs, freelancers, self-employed professionals, and SMEs, Billance helps you comply with mandatory e-invoicing regulations while streamlining your invoicing workflow.</p>
     <p xml:lang="de">Bequem, sicher und gesetzeskonform: Billance ist deine professionelle B2B-Software zur Erstellung, Konvertierung und Validierung von E-Rechnungen. Entwickelt für Unternehmer, Selbstständige, Freiberufler und KMUs, um die gesetzliche E-Rechnungs-Pflicht mühelos zu erfüllen.</p>
@@ -117,6 +158,14 @@
       <caption xml:lang="de">Kunden, Lieferanten, Produkte, Steuerregeln, Zahlungsarten und Firmenprofile zentral pflegen</caption>
     </screenshot>
   </screenshots>
+  <!--
+    The main window has a minimum size of 800x600 logical pixels, so the
+    shortest screen side must be at least 600 px. Phone screens (360 px) are
+    not supported; Flathub shows this as "desktop only".
+  -->
+  <requires>
+    <display_length compare="ge">600</display_length>
+  </requires>
   <supports>
     <control>keyboard</control>
     <control>pointing</control>
