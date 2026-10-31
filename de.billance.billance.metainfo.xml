@@ -173,6 +173,16 @@
   </supports>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="2026.2.5" date="2026-10-31">
+      <description>
+        <ul>
+          <li>Use Billance AI and additional e-invoices with credits, even without Premium.</li>
+          <li xml:lang="de">Billance AI und weitere E-Rechnungen mit Credits auch ohne Premium nutzen.</li>
+          <li>Bug fixes.</li>
+          <li xml:lang="de">Fehlerbehebungen.</li>
+        </ul>
+      </description>
+    </release>
     <release version="2026.2.4" date="2026-10-14">
       <description>
         <p>Highlights:</p>
